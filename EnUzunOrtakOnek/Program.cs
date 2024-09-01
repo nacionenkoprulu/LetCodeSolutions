@@ -18,14 +18,16 @@ namespace EnUzunOrtakOnek
         static public string LongestCommonPrefix(string[] strs)
         {
 
-            var strsShort = strs.OrderBy(str => str.Length).First();
+            string strsShort = strs[0];
 
             for (int i = 1; i < strs.Length; i++)
             {
                 StringBuilder stringBuilder = new StringBuilder();
 
-                for (int j = 0; j < strsShort.Length; j++)
+                for (int j = 0; j < strs[i].Length; j++)
                 {
+                    if (j >= strsShort.Length) break;
+
                     if (strs[i][j] == strsShort[j])
                         stringBuilder.Append(strsShort[j]);
                     else
