@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "One", "One\One.csproj", "{F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palindrom", "Palindrom\Palindrom.csproj", "{50CB96EF-5B08-4CF9-90C2-F4916B0C0764}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumberConverter", "RomanNumberConverter\RomanNumberConverter.csproj", "{7ED147D5-4B1F-4A4E-A966-88EDB2B50EEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanNumberConverter", "RomanNumberConverter\RomanNumberConverter.csproj", "{7ED147D5-4B1F-4A4E-A966-88EDB2B50EEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnUzunOrtakOnek", "EnUzunOrtakOnek\EnUzunOrtakOnek.csproj", "{7B65D050-7BD9-494A-836A-BBC4B1974DF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnUzunOrtakOnek", "EnUzunOrtakOnek\EnUzunOrtakOnek.csproj", "{7B65D050-7BD9-494A-836A-BBC4B1974DF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidParantez", "ValidParantez\ValidParantez.csproj", "{4BDD3955-8CA9-43D9-84A9-4E1E8C307955}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{7B65D050-7BD9-494A-836A-BBC4B1974DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B65D050-7BD9-494A-836A-BBC4B1974DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B65D050-7BD9-494A-836A-BBC4B1974DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BDD3955-8CA9-43D9-84A9-4E1E8C307955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDD3955-8CA9-43D9-84A9-4E1E8C307955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BDD3955-8CA9-43D9-84A9-4E1E8C307955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDD3955-8CA9-43D9-84A9-4E1E8C307955}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
